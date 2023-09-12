@@ -5,7 +5,10 @@
 }
 
 .header {
-
+  display: flex;
+  height: 768px;
+  margin-bottom: 60px;
+  
 }
 
 .decorated-zone{
@@ -17,14 +20,18 @@
 }
 
 .header__theme-menu-list {
+  display: flex;
+  gap: 23px;
 
 }
 
 .header__theme-menu-item {
+  width: 44px;
+  height: 23px;
 
 }
 
-.eader__theme-menu-button {
+.header__theme-menu-button {
 
 }
 
@@ -44,10 +51,20 @@
 
 }
 
-.header_titel (
-
-)
+.header_titel {
+  font-family: IBM Plex Mono;
+  font-size: 157px;
+  font-weight: 700;
+  line-height: 130px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 
 .header_paragraph {
-  
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
 }
