@@ -2,14 +2,12 @@
 
 .page {
   font-family: IBM Plex Mono;
-  background-color: #000028;
   
 }
 
 .header {
   display: flex;
   max-width: 1024px;
-  margin-bottom: 60px;
   flex-direction: column;
   align-items: center;
   margin: auto;
@@ -88,18 +86,34 @@
   background-color: #FF0070;
 }
 
-.section__1 {
+.main {
+  width: 1024px;
+  margin: auto;
+  padding-top: 60px;
+  background-color: #000028;
+  display: flex;
+  gap: 80px;
+  flex-direction: column;
+}
 
+.section__1 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
 .section__2 {
-
+  
 }
 
 .section__3 {
-
+  
 }
 
 .section__4 {
+  
+}
 
+.footer {
+  background-color: #000028;
 }
