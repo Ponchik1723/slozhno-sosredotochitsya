@@ -2,7 +2,8 @@
 
 .page {
   font-family: IBM Plex Mono;
-
+  background-color: #000028;
+  
 }
 
 .header {
@@ -85,4 +86,20 @@
   letter-spacing: 0em;
   color: #000028;
   background-color: #FF0070;
+}
+
+.section__1 {
+
+}
+
+.section__2 {
+
+}
+
+.section__3 {
+
+}
+
+.section__4 {
+
 }
