@@ -96,21 +96,21 @@
   flex-direction: column;
 }
 
-.section__1 {
+.section__question {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
 }
 
-.section__2 {
+.section__reasoning {
   
 }
 
-.section__3 {
+.section__answer {
   
 }
 
-.section__4 {
+.section__pictures {
   
 }
 
