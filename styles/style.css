@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  font-family: IBM Plex Mono;
+  font-family: IBM Plex Mono, Bold, Regular;
   
 }
 
@@ -9,7 +9,7 @@
   display: flex;
   max-width: 1024px;
   flex-direction: column;
-  align-items: center;
+  padding-top: 22px;
   margin: auto;
 }
 
@@ -21,14 +21,14 @@
 }
 
 .header__theme-menu {
-  margin-top: 22px;
+  margin: auto;
 }
 
 .header__theme-menu-list {
   display: flex;
   gap: 23px;
 
-}
+} 
 
 .header__theme-menu-item {
   width: 44px;
@@ -59,10 +59,8 @@
 .header__text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 114px;
   margin: 273px 20px 134px 0;
-  
 }
 
 .header__titel {
@@ -74,6 +72,7 @@
   letter-spacing: 0em;
   color: #DB00FF;
   text-shadow: 4px 4px #FF0070;
+  
 }
 
 .header__paragraph {
@@ -84,36 +83,103 @@
   letter-spacing: 0em;
   color: #000028;
   background-color: #FF0070;
+  align-self: flex-end;
 }
 
 .main {
   width: 1024px;
+  display: flex;
+  flex-direction: column;
   margin: auto;
   padding-top: 60px;
-  background-color: #000028;
-  display: flex;
   gap: 80px;
-  flex-direction: column;
+  background-color: #000028;
 }
 
 .section__question {
+  position: relative;
+  
+}
+
+.section__block-appearance {
   display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-columns: 315px auto;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
 }
 
 .section__reasoning {
-  
+  position: relative;
+}
+
+.block-reasoning {
+  display: flex;
+ flex-direction: row;
+  gap: 20px;
 }
 
 .section__answer {
-  
+  position: relative;
+}
+
+.section__block-better {
+  display: grid;
+  grid-template-columns: 315px auto;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+}
+
+.section__titel {
+  color: #FF0070;
+  width: 315px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.title_block {
+  color: #000028;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #FF0070;
+}
+
+.paragraph_block {
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F1B2CE;
 }
 
 .section__pictures {
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  position: relative;
 }
 
 .footer {
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  margin: auto;
   background-color: #000028;
+}
+
+.footer__title {
+  font-size: 157px;
+  font-weight: 700;
+  line-height: 130px;
+  letter-spacing: 0em;
+  color: #DB00FF;
+  text-shadow: 2px 2px #FF0070;
+  margin: auto;
 }
