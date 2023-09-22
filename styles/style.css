@@ -59,10 +59,9 @@
 .header__text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   gap: 114px;
   margin: 273px 20px 134px 0;
-  
+  position: relative;
 }
 
 .header__titel {
@@ -74,6 +73,8 @@
   letter-spacing: 0em;
   color: #DB00FF;
   text-shadow: 4px 4px #FF0070;
+  text-align: left;
+  
 }
 
 .header__paragraph {
@@ -84,6 +85,7 @@
   letter-spacing: 0em;
   color: #000028;
   background-color: #FF0070;
+  text-align: end;
 }
 
 .main {
