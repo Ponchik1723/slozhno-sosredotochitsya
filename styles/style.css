@@ -160,10 +160,49 @@
 }
 
 .section__pictures {
+  width: 1024px;
+  height: 768px;
+  position: relative;
+}
+
+
+.pictures_block {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  position: relative;
+  grid-template-areas: 
+  "4 4 1"
+  "2 5 1"
+  "2 3 3"
+  "2 3 3";
+}
+  
+
+.pictures-ice-cream {
+  background-image: url(../images/ice-cream.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-area: 1;
+}
+
+.pictures-mobile-icon {
+  background-image: url(../images/mobile-icon.png);
+  grid-area: 2;
+}
+
+.pictures-street {
+  background-image: url(../images/street.png);
+  grid-area: 3;
+}
+
+.pictures-sunset {
+  background-image: url(../images/sunset.png);
+  grid-area: 4;
+}
+
+.pictures-tape {
+  background-image: url(../images/tape.png);
+  grid-area: 5;
 }
 
 .footer {
