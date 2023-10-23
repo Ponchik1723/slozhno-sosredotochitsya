@@ -185,7 +185,7 @@
 .section__answer {
   position: relative;
   width: 984px;
-  margin-top: 80px;
+  margin-block-start: 80px;
 }
 
 .section__block-better {
@@ -215,7 +215,7 @@
   max-width: 1024px;
   position: relative;
   padding-bottom: 60px;
-  margin-top: 80px;
+  margin-block-start: 80px;
 }
 
 .title-pictures {
