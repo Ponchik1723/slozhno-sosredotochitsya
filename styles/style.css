@@ -213,12 +213,10 @@
 
 .section__pictures {
   max-width: 1024px;
-  margin: 80px auto;
-  padding-bottom: 60px;
+  margin-block-start: 80px;
 }
 
 .title-pictures {
-  max-width: 984px;
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
@@ -226,23 +224,25 @@
   text-align: left;
   color: #000028;
   background-color: #FF0070;
-  margin-bottom: 20px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .pictures_list {
-  max-width: 984px;
-  min-height: 1091px;
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto;
-  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3);
+  grid-gap: 20px;
+  margin: 0 20px 0 20px;
 }
 
 .pictures-item_cream {
   grid-column-start: 3;
   grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 
 .pictures-ice-cream {
@@ -255,8 +255,8 @@
 .pictures-item_books {
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .pictures-books {
@@ -269,8 +269,8 @@
 .pictures-item_street {
   grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 .pictures-street {
@@ -283,8 +283,8 @@
 .pictures-item_sunset {
   grid-column-start: 1;
   grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .pictures-sunset {
@@ -298,8 +298,8 @@
 .pictures-item_tape {
   grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
 }
 
 .pictures-tape {
