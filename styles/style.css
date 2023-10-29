@@ -229,7 +229,7 @@
   margin-bottom: 20px;
 }
 
-.pictures_block {
+.pictures_list {
   max-width: 984px;
   min-height: 1091px;
   display: grid;
@@ -237,71 +237,76 @@
   grid-template-rows: auto;
   gap: 20px;
 }
-  
-.pictures-ice-cream {
-  width: 315px;
-  height: 595px;
-  object-fit: cover;
+
+.pictures-item_cream {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
-  background-image: url(../images/ice-cream.png);
-  background-position: center;
-  background-size: cover;
 }
 
-.pictures-books {
-  width: 315px;
-  height: 315px;
+.pictures-ice-cream {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
+}
+
+.pictures-item_books {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url(../images/books.png);
-  background-position: center;
-  background-size: cover;
 }
 
-.pictures-street {
-  width: 649px;
-  height: 428px;
+.pictures-books {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
+}
+
+.pictures-item_street {
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
-  background-image: url(../images/street.png);
-  background-position: center;
-  background-size: cover;
 }
 
-.pictures-sunset {
-  width: 649px;
-  height: 259px;
+.pictures-street {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
+}
+
+.pictures-item_sunset {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 2;
-  background-image: url(../images/sunset.png);
-  background-position: center;
-  background-size: cover;
 }
 
-.pictures-tape {
-  width: 315px;
-  height: 768px;
+.pictures-sunset {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  object-position: center;
+  
+}
+
+.pictures-item_tape {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 4;
-  background-image: url(../images/tape.png);
-  background-position: center;
-  background-size: cover;
+}
 
+.pictures-tape {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .footer {
