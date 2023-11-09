@@ -20,7 +20,8 @@
 }
 
 .header__theme-menu {
-  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .header__theme-menu-list {
@@ -75,7 +76,6 @@
 
 .header__titel {
   max-width: 759px;
-  max-height: 130px;
   font-size: 157px;
   font-weight: 700;
   line-height: 130px;
@@ -185,7 +185,7 @@
 
 .section__answer {
   position: relative;
-  width: 984px;
+  max-width: 984px;
   margin-block-start: 80px;
 }
 
@@ -380,4 +380,44 @@
   top: 0;
   right: 29px;
   margin-top: 28px;
+}
+
+
+@media (max-width: 773px) {
+  .page {
+    width: 768px;
+  }
+
+  .header__theme-menu {
+    
+    justify-content: end;
+    align-items: center;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header__text {
+   margin: 173px 20px 183px 0;
+   gap: 162px;
+  }
+  .header__titel {
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 99px;
+  letter-spacing: 0em;
+  text-align: left;
+ 
+  }
+
+  .header__paragraph {
+    width: 364px;
+  }
+  
+}
+
+@media (max-width: 375px) {
+
 }
