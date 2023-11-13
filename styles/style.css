@@ -389,9 +389,9 @@
   }
 
   .header__theme-menu {
-    
     justify-content: end;
     align-items: center;
+    margin-top: 194px;
   }
 
   .header__theme-menu-list {
@@ -409,15 +409,54 @@
   line-height: 99px;
   letter-spacing: 0em;
   text-align: left;
- 
   }
 
   .header__paragraph {
     width: 364px;
   }
   
+  .footer__title {
+    size: 120px;
+    line-height: 99px;
+  }
 }
 
 @media (max-width: 375px) {
+  .page {
+    width: 375px;
+  }
 
+  .header__theme-menu {
+    margin-top: 75px;
+    margin-right: 10px;
+  }
+
+  .header__text {
+    margin: 65px 10px 66px 10px;
+    gap: 55px;
+   }
+
+   .section__question {
+    display: block;
+   }
+
+   .block-reasoning {
+    display: block;
+   }
+
+   .section__block-better {
+    display: block;
+   }
+
+   .pictures_list {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .footer__title {
+    size: 116px;
+    line-height: 96px;
+    
+
+  }
 }
