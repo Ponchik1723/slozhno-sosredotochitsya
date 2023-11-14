@@ -437,26 +437,60 @@
    }
 
    .section__question {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 40px;
+    
+   }
+
+   .section__block-concentration {
+    margin: 0 10px 0 10px;
+   }
+
+   .section__titel {
+    max-width: 355px;
+   }
+
+   .block {
+    margin: 0 10px 0 10px;
+   }
+
+   .section__reasoning {
+    margin-block-start: 50px;
+    padding: 0;
+   }
+
+   .content_block {
+    max-width: 355px;
    }
 
    .block-reasoning {
-    display: block;
+    flex-direction: column;
+   }
+
+   .section__answer {
+    margin-block-start: 50px;
    }
 
    .section__block-better {
-    display: block;
+    display: flex;
+    flex-direction: column;
+   }
+
+  .section__pictures {
+    margin-block-start: 50px;
    }
 
    .pictures_list {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin: 0 10px 0 10px;
    }
 
    .footer__title {
-    size: 116px;
+    font-size: 116px;
     line-height: 96px;
-    
-
+  
   }
 }
