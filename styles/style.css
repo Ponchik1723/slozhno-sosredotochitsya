@@ -383,7 +383,7 @@
 }
 
 
-@media (max-width: 773px) {
+@media (max-width: 770px) {
   .page {
     width: 768px;
   }
@@ -392,6 +392,7 @@
     justify-content: end;
     align-items: center;
     margin-top: 194px;
+    margin-right: 20px;
   }
 
   .header__theme-menu-list {
@@ -407,8 +408,8 @@
   font-size: 120px;
   font-weight: 700;
   line-height: 99px;
-  letter-spacing: 0em;
   text-align: left;
+  
   }
 
   .header__paragraph {
