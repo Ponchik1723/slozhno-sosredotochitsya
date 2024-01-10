@@ -13,7 +13,6 @@
 }
 
 .decorated-zone{
-  background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,7 +97,6 @@
 .main {
   max-width: 1024px;
   margin: auto;
-  background-color: #000028;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -318,7 +316,6 @@
   min-height: 768px;
   display: flex;
   margin: auto;
-  background-color: #000028;
   position: relative;
 }
 
