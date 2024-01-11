@@ -5,12 +5,32 @@
 */
 
 .page.theme_dark {
-  background-image: url(../images/cover-image-dark.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  object-fit: cover;
-  object-position: center;
+  
 }
 :root {
-  --accent-color: #000028;
+  --accent-color: #FF0070;
+  --text-color: #FF0070;
+  --title-color: #DB00FF;
+  --main-color: #FF0070;
+  --bg-img: url(../images/cover-image-dark.png);
  }
+
+ @media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #FF0070;
+    --text-color: #FF0070;
+    --title-color: #DB00FF;
+    --main-color: #FF0070;
+   }
+  
+ }
+
+ @media (prefers-color-scheme: dark) {
+  .page.theme_auto .lamp {
+    display: none;
+  }
+  
+  .page.theme_light .lamp {
+    display: block;
+  }
+}

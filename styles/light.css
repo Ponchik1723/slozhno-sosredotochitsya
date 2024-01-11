@@ -5,13 +5,35 @@
 */
 
 .page.theme_light {
-  background-image: url(../images/cover-image-light.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  object-fit: cover;
-  object-position: center;
+  
+  
 }
 
 :root {
   --accent-color: #ff8dcb;
+  --text-color: #353430;
+  --title-color: #FFC2E6;
+  --main-color: #FF8DCB;
+  --bg-img:url(../images/cover-image-light.png);
 } 
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --text-color: #353430;
+    --title-color: #FFC2E6;
+    --main-color: #FF8DCB;
+  } 
+}
+
+@media (prefers-color-scheme: light) {
+  .page.theme_auto .lamp {
+    display: none;
+  }
+  
+  .page.theme_dark .lamp {
+    display: block;
+  }
+}

@@ -1,6 +1,10 @@
 .page {
   font-family: IBM Plex Mono, Bold, Regular;
-  
+  background-image: var(--bg-img);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  object-fit: cover;
+  object-position: center;
 }
 
 .header {
@@ -43,7 +47,7 @@
   line-height: 18px;
   letter-spacing: 0em;
   text-align: center;
-  color: #FF0070;
+  color: var(--text-color);
   background-color: transparent;
   border: none;
   padding: 0 13px 0 13px;
@@ -63,7 +67,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid #FF0070;
+  border: 1px solid var(--text-color);
 }
 
 .header__text {
@@ -79,8 +83,8 @@
   font-weight: 700;
   line-height: 130px;
   letter-spacing: 0em;
-  color: #DB00FF;
-  text-shadow: 4px 4px #FF0070;
+  color: var(--title-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .header__paragraph {
@@ -89,8 +93,8 @@
   font-weight: 700;
   line-height: 23.4px;
   letter-spacing: 0em;
-  color: #000028;
-  background-color: #FF0070;
+  /* color: #000028; */
+  background-color: var(--main-color);
   align-self: flex-end;
 }
 
@@ -113,7 +117,7 @@
 }
 
 .section__titel {
-  color: #FF0070;
+  color: var(--main-color);
   max-width: 315px;
   font-size: 18px;
   font-weight: 700;
@@ -140,8 +144,8 @@
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  color: #000028;
-  background-color: #FF0070;
+  color: var(--text-color);
+  background-color: var(--main-color);
 }
 
 .paragraph_block {
@@ -207,7 +211,7 @@
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  background-color: #FF0070;
+  background-color: var(--main-color);
 }
 
 .section__pictures {
@@ -222,7 +226,7 @@
   letter-spacing: 0em;
   text-align: left;
   color: #000028;
-  background-color: #FF0070;
+  background-color: var(--main-color);
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
