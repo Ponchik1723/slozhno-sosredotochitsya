@@ -11,6 +11,8 @@
 
 :root {
   --accent-color: #ff8dcb;
+  --header-p-text: #353430;
+  --maine-text-color: #353430;
   --text-color: #353430;
   --title-color: #FFC2E6;
   --main-color: #FF8DCB;
@@ -19,12 +21,13 @@
 
 
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
     --text-color: #353430;
     --title-color: #FFC2E6;
     --main-color: #FF8DCB;
+    --bg-img:url(../images/cover-image-light.png);
   } 
 }
 
@@ -36,4 +39,4 @@
   .page.theme_dark .lamp {
     display: block;
   }
-}
+} */
