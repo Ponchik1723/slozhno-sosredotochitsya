@@ -136,13 +136,13 @@ a:focus {
   text-align: left;
 }
 
-.block {
+.group {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.group {
+.block {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -154,7 +154,7 @@ a:focus {
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  color: var(--text-color);
+  color: var(--header-p-text);
   background-color: var(--main-color);
 }
 
