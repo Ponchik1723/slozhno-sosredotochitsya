@@ -389,7 +389,7 @@ a:focus {
   margin-top: 28px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   .page {
     width: 768px;
   }
