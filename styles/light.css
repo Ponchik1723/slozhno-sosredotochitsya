@@ -27,4 +27,12 @@
   --main-color: #FF8DCB;
   --bg-img:url(../images/cover-image-light.png);
   }
+  
+  .header__point {
+    display: none;
+  }
+
+  .header__decoration {
+    display: none;
+  }
 }
