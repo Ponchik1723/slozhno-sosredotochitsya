@@ -1,3 +1,7 @@
+
+/* * {
+  border: 1px solid red;
+} */
 a {
   color: var(--maine-text-color);
   text-shadow: 2px 1.5px 0 var(--accent-color);
@@ -123,7 +127,7 @@ a:focus {
 
 .header__titel {
   max-width: 759px;
-  font-size: 157px;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
   font-weight: 700;
   line-height: 130px;
   letter-spacing: 0em;
@@ -431,15 +435,15 @@ a:focus {
   }
 
   .section__question {
-    margin: 0 20px 0 20px;
+    padding: 0 20px 0 20px;
   }
 
   .section__block-concentration{
-    margin: 0 20px 0 20px;
+    padding: 0 20px 0 20px;
   }
 
   .section__block-better {
-    margin: 0 20px 0 20px;
+    padding: 0 20px 0 20px;
   }
   
   .footer__title {
@@ -461,6 +465,10 @@ a:focus {
   .header__text {
     margin: 65px 10px 66px 10px;
     gap: 55px;
+  }
+
+  .header__titel {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .section__question {
