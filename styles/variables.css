@@ -11,8 +11,25 @@
     --title-color: #DB00FF;
     --main-color: #FF0070;
     --bg-img: url(../images/cover-image-dark.png);
+    --main-font: IBM Plex Mono, monospace;
 }
 
-:root {
-  --main-font: IBM Plex Mono, monospace;
+@media (prefers-color-scheme: light) {
+  :root {
+  --accent-color: #ff8dcb;
+  --header-p-text: #353430;
+  --maine-text-color: #353430;
+  --text-color: #353430;
+  --title-color: #FFC2E6;
+  --main-color: #FF8DCB;
+  --bg-img:url(../images/cover-image-light.png);
+  }
+  
+  .header__point {
+    display: none;
+  }
+
+  .header__decoration {
+    display: none;
+  }
 }
