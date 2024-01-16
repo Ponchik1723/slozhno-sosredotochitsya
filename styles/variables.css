@@ -12,3 +12,7 @@
     --main-color: #FF0070;
     --bg-img: url(../images/cover-image-dark.png);
 }
+
+:root {
+  --main-font: IBM Plex Mono, monospace;
+}
