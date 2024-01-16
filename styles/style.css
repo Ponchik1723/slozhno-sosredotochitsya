@@ -242,7 +242,7 @@ a:focus {
 }
 
 .title {
-  color: #000028;
+  color: var(--header-p-text);
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
@@ -266,7 +266,7 @@ a:focus {
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  color: #000028;
+  color: var(--header-p-text);
   background-color: var(--main-color);
   grid-column-start: 1;
   grid-column-end: 4;
