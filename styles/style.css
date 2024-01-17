@@ -1,7 +1,5 @@
 
-* {
-  border: 1px solid red;
-}
+
 a {
   color: var(--maine-text-color);
   text-shadow: 2px 1.5px 0 var(--accent-color);
