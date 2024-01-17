@@ -448,7 +448,8 @@ a:focus {
   }
 
   .content_block {
-    max-width: 728px;
+    max-width: none;
+    min-width: 728px;
   }
 
   .section__block-better {
@@ -481,8 +482,13 @@ a:focus {
   }
 
   .header__titel {
+    max-width: 355px;
     font-size: 116px; 
     line-height: 95.7px;
+  }
+
+  .header__paragraph {
+    max-width: 365px;
   }
 
   .section__question {
