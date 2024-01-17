@@ -127,7 +127,7 @@ a:focus {
 
 .header__titel {
   max-width: 759px;
-   font-size: 157px; /*clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) */
+  font-size: 157px; 
   font-weight: 700;
   line-height: 130px;
   letter-spacing: 0em;
@@ -402,11 +402,8 @@ a:focus {
   margin: 20px;
 }
 
-@media screen and (width< 1023px) {
-  .page {
-    width: 768px;
-  }
-
+@media (min-width: 768px) and (max-width: 1023px) {
+  
   .header__theme-menu {
     justify-content: end;
     align-items: center;
@@ -424,10 +421,11 @@ a:focus {
     gap: 162px;
   }
   .header__titel {
-  font-size: 120px;
-  font-weight: 700;
-  line-height: 99px;
-  text-align: left;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 99px;
+    letter-spacing: 0;
+    text-align: left;
   }
 
   .header__paragraph {
@@ -438,8 +436,21 @@ a:focus {
     padding: 0 20px 0 20px;
   }
 
+  .section__titel {
+    max-width: 236px;
+  }
+
+
   .section__block-concentration{
     padding: 0 20px 0 20px;
+  }
+
+  .block-reasoning {
+    flex-direction: column;
+  }
+
+  .content_block {
+    max-width: 728px;
   }
 
   .section__block-better {
@@ -452,14 +463,18 @@ a:focus {
   }
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
-  .page {
-    width: 375px;
-  }
-
+@media (max-width: 767px) {
+  
   .header__theme-menu {
+    justify-content: end;
+    align-items: center;
     margin-top: 75px;
     margin-right: 10px;
+  }
+
+  .header__theme-menu-list {
+    flex-direction: column;
+    gap: 10px;
   }
 
   .header__text {
@@ -468,7 +483,7 @@ a:focus {
   }
 
   .header__titel {
-    font-size: 116px ; /*clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem) */
+    font-size: 116px ; 
     line-height: 95.7px;
   }
 
@@ -476,6 +491,7 @@ a:focus {
     display: flex;
     flex-direction: column;
     margin-block-start: 40px;
+    margin: 0 10px 0 10px;
   }
 
   .section__block-concentration {
@@ -484,10 +500,6 @@ a:focus {
 
   .section__titel {
     max-width: 355px;
-  }
-
-  .block {
-    margin: 0 10px 0 10px;
   }
 
   .section__reasoning {
@@ -505,6 +517,11 @@ a:focus {
 
   .section__answer {
     margin-block-start: 50px;
+  }
+
+  .section__block-better {
+    margin: 0 10px 0 10px;
+    gap: 20px;
   }
 
   .section__block-better {
