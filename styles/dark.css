@@ -7,5 +7,15 @@
   --title-color: #DB00FF;
   --main-color: #FF0070;
   background-image: url(../images/cover-image-dark.png);
+
+  .header__point {
+    display: block;
+  }
+  
+  .header__decoration {
+    display: block;
+  }
 }
+
+
 

@@ -7,11 +7,11 @@
   --title-color: #FFC2E6;
   --main-color: #FF8DCB;
   background-image:url(../images/cover-image-light.png);
-  
+
   .header__point {
     display: none;
   }
-
+  
   .header__decoration {
     display: none;
   }
@@ -31,8 +31,9 @@
   .header__point {
     display: none;
   }
-
+  
   .header__decoration {
     display: none;
   }
 }
+
