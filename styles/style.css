@@ -31,7 +31,6 @@ a:focus {
   grid-template-columns: auto;
   position: relative;
   margin: auto;
-  justify-self: center;
 }
 
 .decorated-zone {
