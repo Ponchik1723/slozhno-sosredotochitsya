@@ -543,13 +543,17 @@ a:focus {
   }
 
   .section__answer {
-    margin-block-start: 56px;
+    margin-block-start: 50px;
   }
 
   .section__block-better {
     display: flex;
     flex-direction: column;
     padding: 0 10px 0 10px;
+    gap: 20px;
+  }
+
+  .group {
     gap: 21px;
   }
 
